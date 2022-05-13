@@ -1,7 +1,7 @@
 const express=require('express');
-const { set } = require('express/lib/response');
-const res = require('express/lib/response')
+const path=require('path');
 const app=express();
+
 
 const port=process.env.PORT||3001;
 
