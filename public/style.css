@@ -2,6 +2,9 @@
 
 body{
     font-family: 'Libre Bodoni', serif;
+    background-image:url('/assests/Background.png');
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .center-div{
@@ -9,8 +12,13 @@ body{
 }
 
 .btn.btn-success{
-    padding: 1em 1em;
+    padding:.4em 2em;
 }
 form{
     padding: 0 3 em;
 }
+
+#login.title>span{
+    font-size: .8em;
+}
+
