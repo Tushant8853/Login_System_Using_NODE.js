@@ -9,7 +9,7 @@ const router=require('./router');
 const app=express();
 
 
-const port=process.env.PORT||3001;
+const port=process.env.PORT||5000;
 
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:true}))
@@ -33,4 +33,4 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port,()=>{console.log("Losting to the server on http://localhost:3001")});
+app.listen(port,()=>{console.log("Losting to the server on http://localhost:5000")});
